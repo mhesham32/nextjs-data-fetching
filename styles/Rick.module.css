@@ -71,3 +71,11 @@
   margin-right: 20px;
   background-color: red;
 }
+
+.characterWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
