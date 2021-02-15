@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 
 const CharacterPage = ({ character }) => {
   const router = useRouter();
+
   if (router.isFallback) {
     return (
       <div className={styles.characterWrapper}>
@@ -12,6 +13,7 @@ const CharacterPage = ({ character }) => {
       </div>
     );
   }
+
   return (
     <>
       <Head>
